@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>APIVerve.API.CompanyNameGenerator</Title>
+    <Version>1.0.0</Version>
+    <Authors>APIVerve</Authors>
+    <Company>APIVerve</Company>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <PackageProjectUrl>https://apiverve.com/marketplace/api/companynamegenerator</PackageProjectUrl>
+    <SignAssembly>False</SignAssembly>
+    <Description>Company Name Generator is a simple tool for generating company names. It returns a list of company names based on the specified criteria.</Description>
+    <RepositoryUrl>https://github.com/apiverve/companynamegenerator-NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>company name generator; company name generator api; company name generator tool; company name generator software; company name generator service; company name generator library; company name generator sdk; company name generator code; company name generator script; company name generator program; company name generator application; company name generator app; company name generator utility; company name generator helper; company name generator helper tool; company name generator helper software; company name generator helper service; company name generator helper library; company name generator helper sdk; company name generator helper code; company name generator helper script; company name generator helper program; company name generator helper application; company name generator helper app; company name generator helper utility; company name generator helper</PackageTags>
+    <Copyright>©2024 APIVerve. All Rights Reserved</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
