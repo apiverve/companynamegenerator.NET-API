@@ -83,7 +83,7 @@ var response = apiClient.Execute(queryOptions);
 if(response.error != null) {
 	Console.WriteLine(response.error);
 } else {
-    var jsonResponse = JsonConvert.SerializeObject(response.data, Newtonsoft.Json.Formatting.Indented);
+    var jsonResponse = JsonConvert.SerializeObject(response, Newtonsoft.Json.Formatting.Indented);
     Console.WriteLine(jsonResponse);
 }
 ```
@@ -98,11 +98,11 @@ if(response.error != null) {
     "keyword": "systems",
     "count": "5",
     "names": [
-      "Systemspress",
-      "Systemscout",
-      "Systemsbay",
-      "GoSystems",
-      "Systemsloop"
+      "Systemspan",
+      "UpSystems",
+      "Systemside",
+      "Systemsmark",
+      "MasSystems"
     ]
   }
 }
