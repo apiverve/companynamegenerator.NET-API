@@ -70,7 +70,7 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```
-var queryOptions = new companynamegeneratorQueryOptions {
+var queryOptions = new CompanyNameGeneratorQueryOptions {
   keyword = "systems",
   count = 5
 };
@@ -98,13 +98,14 @@ if(response.error != null) {
     "keyword": "systems",
     "count": "5",
     "names": [
-      "MakeSystems",
-      "PeakSystems",
-      "SystemsDrop",
-      "SystemsHip",
-      "SystemsRise"
+      "SystemsGrid",
+      "SystemsLoop",
+      "SystemsHift",
+      "SystemsTorm",
+      "SystemsCape"
     ]
-  }
+  },
+  "code": 200
 }
 ```
 
