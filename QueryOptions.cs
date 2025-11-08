@@ -6,6 +6,6 @@ namespace APIVerve
 {
     public class CompanyNameGeneratorQueryOptions {
 public string keyword { get; set; }
-public integer count { get; set; }
+public int count { get; set; }
 }
 }
